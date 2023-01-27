@@ -1,19 +1,22 @@
 package com.driver;
 
 public class Movie {
-   private String name;
+    private String name;
     private int durationInMinutes;
-   private double imdbRating;
+    private double imdbRating;
 
+    //no argumnets constructor
     public Movie() {
     }
 
+    //argumnets constructor
     public Movie(String name, int durationInMinutes, double imdbRating) {
         this.name = name;
         this.durationInMinutes = durationInMinutes;
         this.imdbRating = imdbRating;
     }
 
+    //getters and setters
     public String getName() {
         return name;
     }

@@ -1,20 +1,21 @@
 package com.driver;
 
 public class Director {
-
- private String name;
+    private String name;
     private int numberOfMovies;
     private double imdbRating;
 
+    //with no args constructor
     public Director() {
     }
 
+    //with all args constructor
     public Director(String name, int numberOfMovies, double imdbRating) {
         this.name = name;
         this.numberOfMovies = numberOfMovies;
         this.imdbRating = imdbRating;
     }
-
+    //getters and setters
     public String getName() {
         return name;
     }
