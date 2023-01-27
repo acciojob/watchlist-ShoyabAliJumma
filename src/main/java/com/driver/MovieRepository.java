@@ -60,7 +60,7 @@ public class MovieRepository {
     {
         return new ArrayList<>(movieDb.keySet());
     }
-    public void deleteDirectorByName(String directorName)
+    public void deleteDirector(String directorName)
     {
         List<String>movies=new ArrayList<>();
         if(movieDirectorDb.containsKey(directorName))

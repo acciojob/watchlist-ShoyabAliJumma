@@ -44,9 +44,9 @@ MovieRepository movieRepository;
         List<String>movies=movieRepository.findAllMovies();
         return movies;
     }
-    public void deleteDirectorByName(String directorName)
+    public void deleteDirector(String directorName)
     {
-        movieRepository.deleteDirectorByName(directorName);
+        movieRepository.deleteDirector(directorName);
     }
     public void  deleteAllDirectors()
     {
